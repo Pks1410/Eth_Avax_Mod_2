@@ -9,7 +9,7 @@ The application has the following functionality:
 * If MetaMask is installed, the Button "Please connect your MetaMask wallet" will be available.
 * If an account is connected, options will be available to view and buy NFTs, check the user’s NFTs, and sell NFTs back to the marketplace.
 * View NFTs: Display available NFTs in the marketplace.
-* Buy NFT: Users can purchase an NFT by paying 1 ETH. If the NFT is sold out, it cannot be purchased again.
+* Buy NFT: Users can purchase an NFT by doing a transaction. If the NFT is sold out, it cannot be purchased again.
 * View My NFTs: Users can see the NFTs they have purchased.
 * Sell NFT: Users can sell their purchased NFTs back to the marketplace.
 
@@ -41,7 +41,7 @@ npx hardhat node
 4. In the third terminal, type: 
 
 ```shell
-npx hardhat run --network localhost scripts/sepolia.js
+npx hardhat run --network localhost scripts/deploy.js
 ```
 
 5. Back in the first terminal, to launch the front-end enter the command:
